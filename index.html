@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="mystyle.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playfair+Display&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <title></title>
+      <style type="text/css">
+         .dark-green-bg {
+         background-color: #00766c !important;
+         }
+         .main {
+         font-family: 'Roboto', sans-serif;
+         width: 50%;
+         margin: auto;
+         padding: 10px;
+         list-style: none;
+         }
+         .html,
+         .css,
+         .js {
+         background-color: #00766c;
+         margin-top: 20px;
+         }
+         li {
+         color: whitesmoke;
+         list-style-position: outside;
+         margin-top: 10px;
+         padding: 10px;
+         background-color: #00766c;
+         }
+         .l3 {
+         padding-left: 0;
+         }
+         .js2 {
+         list-style-position: inside;
+         }
+         .to-banner {
+         margin-left: 6% !important;
+         }
+         .main-background {
+         width: 100%;
+         height: 81.4%;
+         margin-top: 2em;
+         }
+         .main-background  img {
+         min-width: 100%;
+         max-width: 100%;
+         min-height: 100%;
+         object-fit: cover;
+         margin-bottom: 1%;
+         }
+         .main-background-two {
+         margin-top: 2em;
+         width: 50em;
+         margin-left: 10px;
+         background: url(IMG_0151-chrome.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+         float:  left;
+         }
+         .bottom-end {
+         width: 100%;
+         height: 27%;
+         margin-top: -11% !important;
+         padding-top: 0px;
+         background: rgb(80,80,80)
+         }
+         .side-bar {
+         width: 114%;
+         }
+         .width-details-box {
+         margin-left:  3em;
+         }
+         .mainhr {
+         position: relative;
+         top: 2em;
+         text-align: center;
+         }
+         .header h1 {
+         margin-top: 2em;
+         }
+         .link-color {
+         color: #26a69a !important;
+         text-decoration: none;
+         }
+         /* the image area*/
+         .custom-row{
+         width: 95%;
+         padding-left: 0.5em;
+         }
+         .header {
+         text-align: center;
+         padding: 32px;
+         }
+         .row-custom{
+         display: -ms-flexbox; /* IE10 */
+         display: flex;
+         -ms-flex-wrap: wrap; /* IE10 */
+         flex-wrap: wrap;
+         padding: 0 4px;
+         }
+         /* Create four equal columns that sits next to each other */
+         .column {
+         -ms-flex: 25%; /* IE10 */
+         flex: 25%;
+         max-width: 25%;
+         padding: 0 4px;
+         }
+         .column img {
+         margin-top: 8px;
+         vertical-align: middle;
+         width: 100%;
+         }
+         /* Responsive layout - makes a two column-layout instead of four columns */
+         @media screen and (max-width: 800px) {
+         .column {
+         -ms-flex: 50%;
+         flex: 50%;
+         max-width: 50%;
+         }
+         }
+         /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+         @media screen and (max-width: 600px) {
+         .column {
+         -ms-flex: 100%;
+         flex: 100%;
+         max-width: 100%;
+         }
+         }
+         @media screen and (max-width: 1220px) {
+         #hero, .profile-sidebar {
+         display: none;
+         }
+         .header h1 {
+         margin-top: 6em;
+         }
+         }
+         @media screen and (max-width: 785px) {
+         .header h1 {
+         display: none;
+         }
+         .image-area {
+         margin-top: 11em;
+         }
+         }
+         @media screen and (max-width: 673px) {
+         .width-details-box, .details-box {
+         width: 100%;
+         margin-left: 0px;
+         padding-left: 0px;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <header>
+         <div class="nav">
+            <div class="logo-menu">
+               <svg x="0px" y="0px" width="50px" height="44px" cx="50" cy="50" viewBox="0 -3 50 50">
+                  <defs></defs>
+                  <g>
+                     <g class="lines">
+                        <line class="firstline" x1="17.1" y1="29.2" x2="40" y2="29.2"/>
+                        <line class="lastline" x1="17.1" y1="14.2" x2="40" y2="14.2"/>
+                        <line class="middleline" x1="17.1" y1="21.6" x2="40" y2="21.6"/>
+                     </g>
+                     <path class="hexagon" cx="50" cy="50" d="M49,20.1L38.4,1.8C37.8,0.7,36.5,0,35.3,0H14.2c-1.2,0-2.5,0.7-3.2,1.8L0.5,20.1C0.2,20.6,0,21.3,0,21.9
+                        c0,0.7,0.2,1.3,0.5,1.8L11,42c0.6,1.1,1.9,1.8,3.2,1.8h21.1c1.2,0,2.5-0.7,3.2-1.8L49,23.7c0.3-0.5,0.5-1.2,0.5-1.8
+                        C49.4,21.3,49.3,20.6,49,20.1z M45,21.9c0,0.3-0.1,0.6-0.2,0.8l-9.3,16.1c-0.3,0.5-0.9,0.8-1.5,0.8H15.4c-0.6,0-1.2-0.3-1.5-0.8
+                        L4.6,22.8c-0.1-0.2-0.2-0.5-0.2-0.8s0.1-0.6,0.2-0.8L13.9,5c0.3-0.5,0.9-0.8,1.5-0.8H34c0.6,0,1.2,0.3,1.5,0.8l9.3,16.1
+                        C44.9,21.3,45,21.6,45,21.9z"/>
+                     <path class="ac" d="M34.6,10.5h-3.4c-0.3,0-0.5,0.2-0.5,0.5v11.6c-0.5,4.7-5.5,8.1-10.7,5.7c-1.3-0.6-2.3-1.7-2.9-2.9
+                        c-2.6-5.4,1.3-10.7,6.4-10.7c0.9,0,1.7,0.2,2.5,0.5l0.4,0.2c0.4,0.2,0.7,0.3,1,0.6c0.4,0.2,1,0.1,1-0.7v-2.4c0-0.8,0-1.6-1.3-2
+                        c0,0,0,0-0.7-0.2l0,0l0,0c-0.9-0.2-1.9-0.4-2.9-0.4c-8,0-14.1,8.1-10.7,16.5c1.1,2.7,3.3,4.9,6,6c4.5,1.8,8.8,0.9,11.9-1.6
+                        c0,0.9,0,1.5,0,1.6c0,0.3,0.2,0.5,0.5,0.5c0.1,0,0.4,0,0.8,0c0.1,0,0.1,0,0.2,0h2.5c0.3,0,0.5-0.2,0.5-0.5V11.1
+                        C35.1,10.8,34.9,10.5,34.6,10.5z"/>
+                  </g>
+               </svg>
+            </div>
+         </div>
+         <div class="navigation">
+            <div class="container ">
+               <div class="menu-shelf header-div">
+                  <a class="logo" href="#">
+                     <svg class="logo" x="0px" y="0px" width="50px" height="44px">
+                        <defs>
+                        </defs>
+                        <g>
+                           <path class="hexagon" d="M49,20.1L38.4,1.8C37.8,0.7,36.5,0,35.3,0H14.2c-1.2,0-2.5,0.7-3.2,1.8L0.5,20.1C0.2,20.6,0,21.3,0,21.9
+                              c0,0.7,0.2,1.3,0.5,1.8L11,42c0.6,1.1,1.9,1.8,3.2,1.8h21.1c1.2,0,2.5-0.7,3.2-1.8L49,23.7c0.3-0.5,0.5-1.2,0.5-1.8
+                              C49.4,21.3,49.3,20.6,49,20.1z M45,21.9c0,0.3-0.1,0.6-0.2,0.8l-9.3,16.1c-0.3,0.5-0.9,0.8-1.5,0.8H15.4c-0.6,0-1.2-0.3-1.5-0.8
+                              L4.6,22.8c-0.1-0.2-0.2-0.5-0.2-0.8s0.1-0.6,0.2-0.8L13.9,5c0.3-0.5,0.9-0.8,1.5-0.8H34c0.6,0,1.2,0.3,1.5,0.8l9.3,16.1
+                              C44.9,21.3,45,21.6,45,21.9z"/>
+                           <path class="ac" d="M34.6,10.5h-3.4c-0.3,0-0.5,0.2-0.5,0.5v11.6c-0.5,4.7-5.5,8.1-10.7,5.7c-1.3-0.6-2.3-1.7-2.9-2.9
+                              c-2.6-5.4,1.3-10.7,6.4-10.7c0.9,0,1.7,0.2,2.5,0.5l0.4,0.2c0.4,0.2,0.7,0.3,1,0.6c0.4,0.2,1,0.1,1-0.7v-2.4c0-0.8,0-1.6-1.3-2
+                              c0,0,0,0-0.7-0.2l0,0l0,0c-0.9-0.2-1.9-0.4-2.9-0.4c-8,0-14.1,8.1-10.7,16.5c1.1,2.7,3.3,4.9,6,6c4.5,1.8,8.8,0.9,11.9-1.6
+                              c0,0.9,0,1.5,0,1.6c0,0.3,0.2,0.5,0.5,0.5c0.1,0,0.4,0,0.8,0c0.1,0,0.1,0,0.2,0h2.5c0.3,0,0.5-0.2,0.5-0.5V11.1
+                              C35.1,10.8,34.9,10.5,34.6,10.5z"/>
+                        </g>
+                     </svg>
+                  </a>
+                  <h2>
+                     240 Chestnut St <br>
+                     Industrial Building  <br>
+                     For Sale
+                  </h2>
+                  <div class="tab">
+                     <ul class="tabs">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                     </ul>
+                     <div class="tab_content">
+                        <div class="tabs_item active_tab_content">
+                           <p>
+                              240 Chestnut St Warehouse - Hudson Valley Area Submarket Liberty, NY 12754 70,000 SF RBA 2.47 AC Lot Built in 1920 New Addtion added in 1990 
+                              <a href="https://www.loopnet.com/Listing/240-Chestnut-St-Liberty-NY/24497422/"><button class="text">View on Loopnet</button></a>
+                           </p>
+                        </div>
+                        <div class="tabs_item">
+                           <div class="half">
+                              <p> Building Management <br> Construction Management <br> Real Estate Sales <br> Real Estate Development <br> </p>
+                           </div>
+                           <div class="half">
+                              <p> Property Websites <br> Ground Lease Management <br> Property Memorandums <br> Real Estate Consulting  <br> </p>
+                           </div>
+                        </div>
+                        <div class="tabs_item">
+                           <div class="half">
+                              <h4>Get in touch</h4>
+                              <p class="contact"> <a href="mailto: sam@hudsoncommercial.com"> sam@hudsoncommercial.com</a> <br>
+                                 <a href="#">+1 845 454-1444</a> <br>
+                                 <a href="#"> 2678 South Rd Ste 103,<br>
+                                 Poughkeepsie, NY 12601<br></a><br>
+                              </p>
+                           </div>
+                           <div class="half contact-half">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <footer>
+                     <ul class="social">
+
+                     </ul>
+                  </footer>
+               </div>
+            </div>
+         </div>
+         <div class="menu-bg"></div>
+      </header>
+      <div id="hero" class=" p-0">
+         <div class="container-fluid">
+            <div class="row g-0 m-auto to-banner">
+               <div class="col-md-4">
+                  <div class=" main-background mb-0">
+                     <img src="IMG_0119.jpg" class="img-fluid">
+                     <h1> <br>
+                     </h1>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class=" main-background-two ">
+                     <h1 class="mainhr"><br>
+                        240 Chestnut St <br>
+                     </h1>
+                     <div class="bottom-end">
+                        <ul class="main">
+                           <li class="js">
+                              <ul class="l3">
+                                 <li class="list-group-item"><strong>Price: </strong>$1,750,000</li>
+                                 <li class="list-group-item"><strong>Location: </strong> <a  class="link-color" href="https://www.google.com/maps/place/240+Chestnut+St,+Liberty,+NY+12754/@41.8003917,-74.7564026,15z/data=!4m13!1m7!3m6!1s0x89dcbce0a6e603c7:0x832d464983c99eba!2s240+Chestnut+St,+Liberty,+NY+12754!3b1!8m2!3d41.799287!4d-74.756887!3m4!1s0x89dcbce0a6e603c7:0x832d464983c99eba!8m2!3d41.799287!4d-74.756887">240 chestnut st, liberty, ny</a></li>
+                                 <li class="list-group-item"><strong>Building Size: </strong>80,000 SF</li>
+                                 <li class="list-group-item"><strong>AC Lot: </strong> 10 Acers </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="projects">
+         <section id="01">
+            <div class="container-fluid dark width-details-box">
+               <div class="ui-info">
+               </div>
+               <div class="  width-details-box">
+                  <div class="container  mt-5 details-box row">
+                     <div class="details-list-wrap mt-5 col-left col-md-9">
+                        <div class="bg-dark p-5 ">
+                           <div class="description col-left p-2" >
+                              <div class="head-box d-flex align-items-center justify-content-between">
+                                 <h1 class="display-7 text-white p-" >DESCRIPTION</h1>
+                              </div>
+                              <p class="lead ">A Large Storage, Warehouse, and Distribution Facilities built-in 1920 located at 240 Chestnut Street, Liberty The property has a total of 80,000 with a newer 45,000 SF high ceiling industrial building 4 loading docks and a drive-in door which is attached to the older concrete block factory.</p>
+                           </div>
+                           <ul class="details-list m-0 p-0">
+                           <li class="d-flex"><span class="caption">Price:</span><span class="value"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a href="" class="text-white">$2,960,000</a></span></li>
+                           <li class="d-flex"><span class="caption">Price Per SF:</span><span class="value"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a class="text-white" href="">$35</a></span></li>
+                           <li class="d-flex"><span class="caption">Sale Type: </span><span class="value"> &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; <a class="text-white" href="">Owner User</a></span></li>
+                           <li class="d-flex"><span class="caption">Property Type:</span><span class="value"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a  class="text-white" href="">Industrial</a></span></li>
+                           <li class="d-flex"><span class="caption">Property Subtype:</span><span class="value"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="text-white" href="">Warehouse</a></span></li>
+                           <li class="d-flex"><span class="caption">Building Class:  </span><span class="value"> &nbsp;&nbsp;&nbsp;     <a href="" class="text-white">C</a> </span></li>
+                           <li class="d-flex"><span class="caption">Lot Size:</span><span class="value"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="" class="text-white">10.00 AC</a></span></li>
+                           <li class="d-flex"><span class="caption">Rentable Building Area:</span><span class="value"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="" class="text-white">85,000 SF</a></span></li>
+                           <li class="d-flex"><span class="caption">No. Stories:</span><span class="value"> &nbsp;&nbsp;&nbsp;<a href="" class="text-white">3</a></span></li>
+                           <li class="d-flex"><span class="caption">Year Built/Renovated:</span><span class="value"> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a href="" class="text-white">1920/1990</a></span></li>
+                        </div>
+                     </div>
+                     <div class="inquiry-form-wrap col-right col-md-3">
+                        <div class="bg-dark mt-5 side-bar ">
+                           <div class="profile-sidebar ">
+                              <!-- SIDEBAR USERPIC -->
+                              <div class="profile-userpic">
+                                 <div class="panel-body">
+                                    <img src="https://hudson-commercial.github.io/Beechwood/user_1.jpg" alt="Sam Finnerman" class="w-100 p-3">
+                                 </div>
+                              </div>
+                              <!-- END SIDEBAR USERPIC -->
+                              <!-- SIDEBAR USER TITLE -->
+                              <div class="menu-link">
+                                 <div class="profile-usertitle">
+                                    <div class="profile-usertitle-name">
+                                       <h5 class=" text-white p-3 text-center">Samuel Finnerman</h5>
+                                    </div>
+                                    <div class="profile-usertitle-job text-white">
+                                       <br>
+                                    </div>
+                                 </div>
+                                 <!-- END SIDEBAR USER TITLE -->
+                                 <!-- SIDEBAR BUTTONS -->
+                                 <div class="profile-userbuttons mb-5 p-3">
+                                    <a class="btn  dark-green-bg btn-lg w-100 " href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=sam@hudsoncommercial.com" target="_blank">&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;</a>            
+                                 </div>
+                                 <!-- END SIDEBAR BUTTONS -->
+                                 <!-- SIDEBAR MENU -->
+                              </div>
+                              <!-- END MENU -->
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="02">
+            <div class="container-fluid">
+               <!-- Header -->
+               <div class="header">
+                  <h1>240 Chestnut St </h1>
+               </div>
+               <div class="custom-row">
+                  <!-- Photo Grid -->
+                  <div class="row-custom image-area">
+                     <div class="column">
+                        <img src="IMG_0113.jpg" style="width:100%">
+                        <img src="IMG_0119.jpg" style="width:100%">
+                        <img src="IMG_0120.jpg" style="width:100%">
+                        <img src="IMG_0131.jpg" style="width:100%">
+                        <img src="IMG_0132.jpg" style="width:100%">
+                        <img src="IMG_0133.jpg" style="width:100%">
+                     </div>
+                     <div class="column">
+                        <img src="IMG_0135.jpg" style="width:100%">
+                        <img src="IMG_0136.jpg" style="width:100%">
+                        <img src="IMG_0140.jpg" style="width:100%">
+                        <img src="IMG_0151-dark.jpg" style="width:100%">
+                        <img src="IMG_0142.jpg" style="width:100%">
+                        <img src="IMG_0143.jpg" style="width:100%"> 
+                     </div>
+                     <div class="column">
+                        <img src="IMG_0144.jpg" style="width:100%">
+                        <img src="IMG_0111.jpg" style="width:100%">
+                        <img src="IMG_0112.jpg" style="width:100%">
+                        <img src="IMG_0114.jpg" style="width:100%">
+                        <img src="IMG_0115.jpg" style="width:100%">
+                        <img src="IMG_0100.jpg" style="width:100%">
+                     </div>
+                     <div class="column">
+                        <img src="IMG_0103.jpg" style="width:100%">
+                        <img src="IMG_0106.jpg" style="width:100%">
+                        <img src="IMG_0107.jpg" style="width:100%">
+                        <img src="IMG_0109.jpg" style="width:100%">
+                        <img src="IMG_0151-chrome.jpg" style="width:100%">
+                        <img src="IMG_0113.jpg" style="width:100%">  
+                     </div>
+                  </div>
+               </div>
+   </body>
+   </div>
+   </div>
+   </section>
+   <section id="03">
+   </section>
+   <section id="04">
+   </section>
+   <section id="05">
+   </section>
+   </div>
+   </body>
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+   <script type="text/javascript">
+      // LOGO
+      
+      var btn = document.querySelector('.logo-menu'),
+      svg = document.querySelector('svg');
+      
+      btn.addEventListener('click', function() {
+      svg.classList.toggle('click');
+      }, false);
+      
+      
+      // MENU
+      
+      function showMobileMenu() {
+      var mobileVis = jQuery('.menu-shelf').css('display');
+      if (mobileVis == "none") {
+        jQuery('.menu-shelf').animate({
+          width: 'toggle'
+        }, 350);
+        $('.navigation, .menu-bg').toggleClass("open-nav");
+      } else {
+        jQuery('.menu-shelf').animate({
+          width: 'toggle'
+        }, 350);
+        $('.navigation, .menu-bg').toggleClass("open-nav");
+      }
+      };
+      jQuery('.logo-menu').click(function() {
+      showMobileMenu();
+      return false;
+      });
+      
+      
+      // TABS
+      
+      $(document).ready(function() {
+      
+      (function($) {
+        $('.tab ul.tabs').addClass('active').find('> li:eq(0)').addClass('current');
+      
+        $('.tab ul.tabs li a').click(function(g) {
+          var tab = $(this).closest('.tab'),
+            index = $(this).closest('li').index();
+      
+          tab.find('ul.tabs > li').removeClass('current');
+          $(this).closest('li').addClass('current');
+          tab.find('.tab_content').find('div.tabs_item').not('div.tabs_item:eq(' + index + ')').slideUp().removeClass("active_tab_content");
+          tab.find('.tab_content').find('div.tabs_item:eq(' + index + ')').slideDown().addClass("active_tab_content");
+      
+          g.preventDefault();
+        });
+      })(jQuery);
+      
+      });
+      
+      
+      // SMOOTH SCROLL
+      
+      $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 800);
+            return false;
+          }
+        }
+      });
+      });
+      
+      // SCROLL TRIGGER
+      
+      
+      var element_position = $('#01').offset().top;
+      var screen_height = $(window).height();
+      var activation_offset = 0.5;//determines how far up the the page the element needs to be before triggering the function
+      var activation_point = element_position - (screen_height * activation_offset);
+      var max_scroll_height = $('body').height() - screen_height - 5;//-5 for a little bit of buffer
+      
+      //Does something when user scrolls to it OR
+      //Does it when user has reached the bottom of the page and hasn't triggered the function yet
+      $(window).on('scroll', function() {
+        var y_scroll_pos = window.pageYOffset;
+      
+        var element_in_view = y_scroll_pos > activation_point;
+        var has_reached_bottom_of_page = max_scroll_height <= y_scroll_pos && !element_in_view;
+      
+        if(element_in_view || has_reached_bottom_of_page) {
+            $('ul.pagination').animate({
+          width: 'toggle'
+        }, 350);
+        }
+        else {
+            $('ul.pagination').animate({
+          width: 'toggle'
+        }, 350);
+       }
+      });
+   </script>
+</html>
