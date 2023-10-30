@@ -11,7 +11,7 @@ https://hudson-commercial.github.io/240-Chestnut-St-for-sale/
 
 ## Links
 
-- [https://hudson-commercial.github.io/240-Chestnut-St/](https://hudson-commercial.github.io/240-Chestnut-St/) - Link to Project website - 
+- [https://hudson-commercial.github.io/240-Chestnut-St-for-sale/](https://hudson-commercial.github.io/240-Chestnut-St-for-sale/) - Link to Project website - 
 - [https://hudsoncommercial.com/](https://hudsoncommercial.com/) - Link to Hudson Commercial Real Estate Website - 
 - [https://www.loopnet.com/Listing/240-Chestnut-St-Liberty-NY/24497399/]https://www.loopnet.com/Listing/240-Chestnut-St-Liberty-NY/24497399/) - Link to The Loopnet Listing For 22-24 Riverview Dr - 
 
