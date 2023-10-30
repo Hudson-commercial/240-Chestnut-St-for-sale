@@ -1,7 +1,7 @@
 # 240-Chestnut-St-for-sale
 https://hudson-commercial.github.io/240-Chestnut-St-for-sale/
 
-# 240-Chestnut-St updated with a side nav
+# A new version of the website with side navigation. 
 
 
 
